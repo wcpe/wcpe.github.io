@@ -1,20 +1,32 @@
-NewVersion: "0.3"
+NewVersion: "0.4"
 Version:
+  '0.4':
+    Updata:
+    - '§c--------------------------------------------------'
+    - '▪ §aSimpleBases §a更新公告 §70.3 §f➦ §70.4'
+    - '▪ §aMcbbs下载: https://www.mcbbs.net/thread-936154-1-1.html'
+    - '§7[§4!§7] §c出现Bug请+Q或者评论及时反馈相关问题'
+    - '§c--------------------------------------------------'
   '0.3':
     Updata:
-    - '最新版本0.0.3'
-    - '更新了。。。。。'
-    - '我也不知道'
-    - 'MCBBS:https://www.mcbbs.net/thread-936154-1-1.html'
+    -'重构ClearListen代码 修复多次倒计时刷屏bug'
+    -'添加JoinMessage消息配置 可Title Actionbar message
+    -'添加/pm 在线奖励指令 可深度配置
+    -'可设置兑换时的指令 和 发送消息 在Command里可加<1*100>表达式
+    -'举个梨子
+    -'Command:
+    -'-'money give %player% <%pmdh%+100>'
+    -'效果为兑换一点在线值 增加101点金币
+    -'修复了/Speed指令 超出范围报错
+    -'添加/gc 查询服务器信息指令
+    - '▪ §aMcbbs下载: https://www.mcbbs.net/thread-936154-1-1.html'
   '0.2':
     Updata:
     - '最新版本0.0.3'
     - '更新了。。。。。'
     - '我也不知道'
-    - 'MCBBS:https://www.mcbbs.net/thread-936154-1-1.html'
+    - '▪ §aMcbbs下载: https://www.mcbbs.net/thread-936154-1-1.html'
   '0.1':
     Updata:
-    - '最新版本0.0.3'
-    - '更新了。。。。。'
-    - '我也不知道'
-    - 'MCBBS:https://www.mcbbs.net/thread-936154-1-1.html'
+    - '§a发布插件 基础功能'
+    - '▪ §aMcbbs下载: https://www.mcbbs.net/thread-936154-1-1.html'
