@@ -15,14 +15,13 @@ Version:
     - '可设置兑换时的指令 和 发送消息 在Command里可加<1*100>表达式'
     - '举个梨子'
     - 'Command:'
-    - '-'money give %player% <%pmdh%+100>'
+    - 'money give %player% <%pmdh%+100>'
     - '效果为兑换一点在线值 增加101点金币'
     - '修复了/Speed指令 超出范围报错'
     - '添加/gc 查询服务器信息指令'
     - '▪ §aMcbbs下载: https://www.mcbbs.net/thread-936154-1-1.html'
   '0.2':
     Updata:
-    - '最新版本0.0.3'
     - '更新了。。。。。'
     - '我也不知道'
     - '▪ §aMcbbs下载: https://www.mcbbs.net/thread-936154-1-1.html'
