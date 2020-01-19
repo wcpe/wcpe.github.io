@@ -1,5 +1,6 @@
 NewVersion: 1.0
-'1.0':
-  Updata:
+Version:
+  '1.0':
+    Updata:
     - '§a发布插件 基础功能'
     - '▪ §aMcbbs下载: https://www.mcbbs.net/thread-941510-1-1.html'
