@@ -3,103 +3,90 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
+title: "WCPE's Blog" # 站点的标题
+subtitle: ")bushi" # 站点的副标题
+description: "某" # 站点的描述
+keywords: ["?", "blog"] # 站点的关键词
+author: "WCPE" # 站点的作者名
+language: "zh-cn" # 站点使用的语言
+timezone: "Asia/Shanghai" # 站点的时区
 
 # URL
-## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
-permalink: :year/:month/:day/:title/
+## 设置站点URL，如使用 GitHub Page, 设置为 'https://username.github.io/project'
+url: https://wcpe.top # 站点URL
+permalink: :year/:month/:day/:title/ # 永久链接格式
 permalink_defaults:
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+  trailing_index: true # 设置为 false 以从永久链接中移除尾部的 'index.html'
+  trailing_html: true # 设置为 false 以从永久链接中移除尾部的 '.html'
 
 # Directory
-source_dir: source
-public_dir: public
-tag_dir: tags
-archive_dir: archives
-category_dir: categories
-code_dir: downloads/code
-i18n_dir: :lang
-skip_render:
+source_dir: source # 存放源文件的目录
+public_dir: public # 存放生成的站点文件的目录
+tag_dir: tags # 标签的目录
+archive_dir: archives # 归档的目录
+category_dir: categories # 分类的目录
+code_dir: downloads/code # 代码下载目录
+i18n_dir: :lang # 国际化目录
+skip_render: # 跳过渲染的文件或路径
+  - '404.html'
 
 # Writing
-new_post_name: :title.md # File name of new posts
-default_layout: post
-titlecase: false # Transform title into titlecase
+new_post_name: :title.md # 新文章的文件名格式
+default_layout: post # 默认布局
+titlecase: false # 是否将标题转换为标题样式
 external_link:
-  enable: true # Open external links in new tab
-  field: site # Apply to the whole site
-  exclude: ''
+  enable: true # 在新标签页中打开外部链接
+  field: site # 应用于整个站点
+  exclude: ""
 filename_case: 0
-render_drafts: false
-post_asset_folder: false
-relative_link: false
-future: true
-syntax_highlighter: highlight.js
+render_drafts: false # 是否渲染草稿
+post_asset_folder: true # 是否为文章启用资源文件夹
+relative_link: false # 是否使用相对链接
+future: true # 是否显示未来的帖子
+syntax_highlighter: highlight.js # 使用的代码高亮库
 highlight:
-  line_number: true
-  auto_detect: false
-  tab_replace: ''
-  wrap: true
+  line_number: true # 显示行号
+  auto_detect: false # 自动检测代码语言
+  tab_replace: "" # 用于替换制表符的字符串
+  wrap: true # 代码是否换行
   hljs: false
 prismjs:
-  preprocess: true
-  line_number: true
-  tab_replace: ''
+  preprocess: true # 是否预处理
+  line_number: true # 显示行号
+  tab_replace: "" # 用于替换制表符的字符串
 
 # Home page setting
-# path: Root path for your blogs index page. (default = '')
-# per_page: Posts displayed per page. (0 = disable pagination)
-# order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
-  per_page: 10
-  order_by: -date
+  path: "" # 博客首页的根路径
+  per_page: 10 # 每页显示的帖子数
+  order_by: -date # 帖子的排序方式
 
 # Category & Tag
-default_category: uncategorized
-category_map:
-tag_map:
+default_category: uncategorized # 默认分类
+category_map: # 分类映射
+tag_map: # 标签映射
 
 # Metadata elements
-## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
-meta_generator: true
+meta_generator: true # 是否生成 meta 标签
 
 # Date / Time format
-## Hexo uses Moment.js to parse and display date
-## You can customize the date format as defined in
-## http://momentjs.com/docs/#/displaying/format/
-date_format: YYYY-MM-DD
-time_format: HH:mm:ss
-## updated_option supports 'mtime', 'date', 'empty'
-updated_option: 'mtime'
+date_format: YYYY-MM-DD # 日期格式
+time_format: HH:mm:ss # 时间格式
+updated_option: "mtime" # 更新时间选项
 
 # Pagination
-## Set per_page to 0 to disable pagination
-per_page: 10
-pagination_dir: page
+per_page: 10 # 分页中每页的帖子数
+pagination_dir: page # 分页目录
 
 # Include / Exclude file(s)
-## include:/exclude: options only apply to the 'source/' folder
 include:
 exclude:
 ignore:
 
 # Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
-theme: landscape
+theme: landscape # 使用的主题
 
 # Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
-
+  type: "" # 部署类型
