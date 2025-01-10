@@ -1,10 +1,12 @@
+---
 title: 群辉使用 fclones 进行文件去重
 author: WCPE
-tags: []
-categories:
-- SynologyNas
-
 date: 2024-07-09 16:17:54
+categories:
+- 记录
+tags:
+- '群晖'
+- 'Synology'
 ---
 
 ## 前言

@@ -1,7 +1,11 @@
 ---
 title: 记录第一次玩 PT 的刺激
+author: WCPE
 date: 2024-08-15 15:54:27
+categories:
+- 其他
 tags:
+- 'PrivateTracker'
 ---
 
 # 起因

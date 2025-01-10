@@ -1,9 +1,11 @@
+---
 title: Docker 中 Gitlab 日志过大问题
 author: WCPE
-tags: []
-categories:
-- Gitlab
 date: 2024-07-12 10:47:28
+categories:
+- 运维
+tags:
+- 'Gitlab'
 ---
 
 # 前言

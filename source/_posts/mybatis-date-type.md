@@ -1,7 +1,12 @@
 ---
 title: Mybatis 处理 MySQL 中 date 类型字段
+author: WCPE
 date: 2024-08-09 15:40:27
+categories:
+- 记录
 tags:
+- 'Mybatis'
+- 'MySQL'
 ---
 
 

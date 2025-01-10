@@ -1,7 +1,11 @@
 ---
 title: 构建 Folia
+author: WCPE
 date: 2024-12-01 18:57:10
+categories:
+- 游戏
 tags:
+- 'Minecraft'
 ---
 
 准备构建 https://github.com/PaperMC/Folia 这个项目的 1.21.1 版本

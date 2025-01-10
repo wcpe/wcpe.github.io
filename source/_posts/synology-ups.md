@@ -1,9 +1,12 @@
+---
 title: 群晖接入 UPS 实现断电自动关机
 author: WCPE
-tags: []
-categories:
-- SynologyNas
 date: 2024-07-04 23:04:00
+categories:
+- 记录
+tags:
+- '群晖'
+- 'Synology'
 ---
 
 # 前言

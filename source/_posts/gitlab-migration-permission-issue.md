@@ -1,7 +1,11 @@
 ---
-title: gitlab 迁移后的文件权限问题
+title: Gitlab 迁移后的文件权限问题
+author: WCPE
 date: 2024-10-11 17:39:15
+categories:
+- 运维
 tags:
+- 'Gitlab'
 ---
 
 # 起因

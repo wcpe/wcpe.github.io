@@ -1,7 +1,12 @@
 ---
 title: MySQL 时区导致 Mybatis 插入 DateTime 的问题
+author: WCPE
 date: 2024-08-10 14:10:26
+categories:
+- 坑
 tags:
+- 'Mybatis'
+- 'MySQL'
 ---
 # 前言
 

@@ -1,7 +1,12 @@
 ---
 title: 黑群晖激活 Active Backup for Business
+author: WCPE
 date: 2024-08-18 02:45:53
+categories:
+- 记录
 tags:
+- '群晖'
+- 'Synology'
 ---
 
 两条命令

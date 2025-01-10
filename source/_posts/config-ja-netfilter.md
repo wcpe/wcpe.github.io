@@ -1,7 +1,11 @@
 ---
-title: 配置 ja-netfilter 激活 idea
+title: 配置 ja-netfilter 激活 IDEA
+author: WCPE
 date: 2024-08-30 10:33:42
+categories:
+- 工具
 tags:
+- 'IDEA'
 ---
 
 # 配置 ja-netfilter
